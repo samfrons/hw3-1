@@ -1,0 +1,43 @@
+html, body {
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ }
+
+ .container {
+width: 870px;
+ margin: 0 0 0 20px;
+ padding: 0;
+ }
+
+#column-left{
+  float: left; width: 33%;
+}
+
+#column-right{
+  float: right; width: 33%;
+
+}
+
+#column-center{
+  display: inline-block; width: 33%;
+  padding-top: 1em
+}
+h2{
+  text-align: center;
+  font-family: georgia;
+}
+h3{
+  font-family: georgia;
+}
+ #footer {
+ /*float: left;*/
+ text-align: center;
+ width: 870px;
+ border-top: #c00 solid 3px;
+ }
+header{
+  width: 870px;
+ border-top: #c00 solid 3px;
+
+}
