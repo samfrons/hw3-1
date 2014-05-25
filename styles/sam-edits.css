@@ -1,0 +1,65 @@
+/* ---------------------- pulpsam ---------------------- */
+
+.container {
+	padding: 5em 2em 2em 15%;
+	overflow: visible;
+}
+/* overflow: auto was not good for this layout. it cutoff the article */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+/* made boxes flush */
+
+#socialmediabar {
+	padding: 5px;
+}
+
+
+
+footer {
+	clear: both;
+}
+/* this makes sure the footer stays at the bottom instead of adopting the floats */
+
+
+/* ---------------------- imagegal ---------------------- */
+
+/* looks great. if you wanted the images to not scale on smaller sizes, then just add a min-width to the li */ 
+
+/* ---------------------- courtrules ---------------------- */
+
+header {
+	width: 100%;
+}
+/* put header 100%*/
+
+.container-court {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	padding: 10px;
+}
+/* structured page so it centers and doesn't take up too much padding */ 
+
+.column {
+	float: left;
+	display: block;
+	width: 30%;
+	margin: 1%;
+	min-width: 360px;
+}
+/* this is when things got messy. you need to float all elements left and they can stay as blocks then give them enough width so they can all fit on larger browser sizes with a min-width so they don't break on smaller ones. */
+
+
+
+footer {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	border-top: #c00 solid 3px;
+}
+/* took out width so it flowed with the rest of the page */
+/* the clearing puts it to the bottom */ 
+
